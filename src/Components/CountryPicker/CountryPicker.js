@@ -1,5 +1,5 @@
 import styles from "./CountryPicker.module.css";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import { NativeSelect, FormControl } from "@material-ui/core";
 
 export const CountryPicker = ({ data, handleCountryChange }) => {
