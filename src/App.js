@@ -69,9 +69,9 @@ export const App = () => {
 
   // Function for handling Change in Selection CoutryPicker
   const handleCountryChange = async (selectedCountry) => {
+    // Calling the function again with selectedCOuntry selected by CountryPicker Component
     getGlobalData(selectedCountry);
     setSelectedCountry(selectedCountry);
-    console.log("Selected Country", selectedCountry);
   };
 
   return (
